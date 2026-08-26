@@ -1,0 +1,26 @@
+# Trubaoke backend dependencies
+# Pin major versions for reproducibility; use >= for patch flexibility
+
+fastapi>=0.141.1,<1.0.0
+uvicorn[standard]>=0.52.0,<1.0.0
+pydantic>=2.13.0,<3.0.0
+
+# HTTP client for LRCLIB and YouTube API
+httpx>=0.28.0,<1.0.0
+
+# YouTube audio download (chord detection)
+yt-dlp>=2026.8.0
+
+# Audio analysis (chord detection)
+librosa>=1.0.0,<2.0.0
+numpy>=2.0.0,<3.0.0
+scipy>=1.18.0,<2.0.0
+
+# AWS SDK (DynamoDB caching)
+boto3>=1.43.0,<2.0.0
+
+# Config
+python-dotenv>=1.2.0,<2.0.0
+
+# AWS Lambda adapter (optional — not used with App Runner but included for flexibility)
+mangum>=0.22.0,<1.0.0

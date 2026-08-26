@@ -1,0 +1,4 @@
+config:
+  trubaoke:youtubeApiKey:
+    secure: AAABANmH3/XCM9G3rzgYIxgi8oHjlpa1P7exIxRLaEGBrOVo6cdhLVI6xcD/33r/bFPqUgiLgRNqP0jgsQ==
+  aws:region: us-east-1
