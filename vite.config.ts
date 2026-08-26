@@ -5,13 +5,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  server: {
-    // Proxy API calls to the backend during development
-    proxy: {
-      '/api': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-      },
-    },
-  },
+  // Base path for GitHub Pages: https://jarkkonaapila-netizen.github.io/trubaoke/
+  base: '/trubaoke/',
 })

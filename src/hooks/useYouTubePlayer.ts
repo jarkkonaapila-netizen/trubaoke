@@ -106,7 +106,7 @@ export function useYouTubePlayer(videoId: string | null): YouTubePlayerControls 
             if (cancelled) return;
             setIsReady(true);
           },
-          onStateChange: (event: YT.PlayerEvent) => {
+          onStateChange: (event: YT.OnStateChangeEvent) => {
             if (cancelled) return;
             const playing = event.data === window.YT.PlayerState.PLAYING;
             setIsPlaying(playing);

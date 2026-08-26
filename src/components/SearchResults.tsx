@@ -45,9 +45,7 @@ export default function SearchResults({ results, onSelect }: SearchResultsProps)
               <span className="text-xs text-gray-400 mt-1 truncate">
                 {r.channelTitle}
               </span>
-              {r.duration && (
-                <span className="text-xs text-gray-500 mt-0.5">{r.duration}</span>
-              )}
+
             </div>
           </button>
         ))}

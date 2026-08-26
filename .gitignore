@@ -1,37 +1,24 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
-*.egg-info/
-dist/
-build/
-.env
-.env.*
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Node / Frontend
-node_modules/
-frontend/dist/
-frontend/.env
-frontend/.env.*
+node_modules
+dist
+dist-ssr
+*.local
 
-# Pulumi
-infra/venv/
-infra/*.pyc
-infra/__pycache__/
-
-# OS
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-*.swp
-
-# Audio processing temp files
-backend/tmp/
-*.mp3
-*.wav
-*.ogg
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
